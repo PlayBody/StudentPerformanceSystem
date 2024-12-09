@@ -1,4 +1,6 @@
-### Performance Task #1: Solution Design#### Data Design- **Entities and Attributes:**
+### Performance Task #1: Solution Design
+
+#### Data Design- **Entities and Attributes:**
   - **Student:**
     - `StudentID` (Primary Key)
     - `FirstName`
@@ -32,13 +34,14 @@
     - `PasswordHash`
     - `Role` (Teacher, SchoolLeader, FoundationStaff)
     - `TeacherID` (Foreign Key)
-    - `SchoolID` (Foreign Key)- **Relationships:**
-  - A `Student` belongs to a `Class`.
-  - A `Class` is taught by a `Teacher`.
-  - A `User` is belongs to a `Teacher` or `School`.
-  - A `Teacher` works at a `School`.
-  - A `Student` takes multiple `Tests`.
-  - Each `Test` has multiple `Scores`.
+    - `SchoolID` (Foreign Key)
+  - **Relationships:**
+    - A `Student` belongs to a `Class`.
+    - A `Class` is taught by a `Teacher`.
+    - A `User` is belongs to a `Teacher` or `School`.
+    - A `Teacher` works at a `School`.
+    - A `Student` takes multiple `Tests`.
+    - Each `Test` has multiple `Scores`.
 
 ![model](img/image.png)
 
@@ -110,7 +113,7 @@ Please let me know if you need any further details or adjustments to the timelin
 
 Best regards,
 
-[Your Name]
+[Name]
 
 ### Performance Task #3: Email to Maria
 
